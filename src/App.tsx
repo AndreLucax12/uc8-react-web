@@ -2,6 +2,7 @@ import { Cabecalho } from './componentes/Cabecalho';
 import { Rodape } from './componentes/Rodape';
 import type { OrdemServico } from './types/entidades';
 import { CartaoOrdemServico } from './componentes/CartaoOrdemServico';
+import { FormularioOrdemServico } from './componentes/FormularioOrdemServico';
 
 const os1: OrdemServico = {
   id: 1,
@@ -28,6 +29,7 @@ export default function App() {
       <Cabecalho />
       <CartaoOrdemServico ordemServico={os1} valorAlerta={100} />
       <CartaoOrdemServico ordemServico={os2} valorAlerta={100} />
+      <FormularioOrdemServico />
       <Rodape />
     </main>
   );
