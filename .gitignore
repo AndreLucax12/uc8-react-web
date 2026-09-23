@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Anotações locais de progresso (não faz parte da entrega)
+PROGRESSO.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
